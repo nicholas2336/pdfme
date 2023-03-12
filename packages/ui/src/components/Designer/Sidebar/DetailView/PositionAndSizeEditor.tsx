@@ -226,7 +226,7 @@ const PositionAndSizeEditor = (
           <span style={{ fontSize: '0.6rem' }}>mm</span>
         </div>
       </div>
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+      {/* <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <div style={inputSetStyle}>
           <label style={{ width: 17 }}>W</label>
           <input
@@ -257,7 +257,7 @@ const PositionAndSizeEditor = (
           />
           <span style={{ fontSize: '0.6rem' }}>mm</span>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

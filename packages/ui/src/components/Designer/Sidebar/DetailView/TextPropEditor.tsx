@@ -146,7 +146,7 @@ const TextPropEditor = (
             ])
           }
         />
-        <NumberInputSet
+        {/* <NumberInputSet
           width="30%"
           label={'LineHeight(em)'}
           value={activeSchema.lineHeight ?? DEFAULT_LINE_HEIGHT}
@@ -155,9 +155,9 @@ const TextPropEditor = (
               { key: 'lineHeight', value: Number(e.target.value), schemaId: activeSchema.id },
             ])
           }
-        />
+        /> */}
 
-        <NumberInputSet
+        {/* <NumberInputSet
           width="40%"
           label={'CharacterSpacing(pt)'}
           value={activeSchema.characterSpacing ?? DEFAULT_CHARACTER_SPACING}
@@ -166,7 +166,7 @@ const TextPropEditor = (
               { key: 'characterSpacing', value: Number(e.target.value), schemaId: activeSchema.id },
             ])
           }
-        />
+        /> */}
       </div>
       <div
         style={{
@@ -189,7 +189,7 @@ const TextPropEditor = (
           }
         />
 
-        <ColorInputSet
+        {/* <ColorInputSet
           label={'Background'}
           value={activeSchema.backgroundColor ?? '#ffffff'}
           onChange={(e) =>
@@ -200,7 +200,7 @@ const TextPropEditor = (
           onClear={() =>
             changeSchemas([{ key: 'backgroundColor', value: '', schemaId: activeSchema.id }])
           }
-        />
+        /> */}
       </div>
     </div>
   );
