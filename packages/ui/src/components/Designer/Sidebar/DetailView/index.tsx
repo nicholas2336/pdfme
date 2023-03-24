@@ -25,17 +25,17 @@ const DetailView = (
       </div>
       <Divider />
       <div style={{ fontSize: '0.9rem' }}>
-        <TypeAndKeyEditor {...props} />
+        {/* <TypeAndKeyEditor {...props} /> */}
         <Divider />
-        {/* <PositionAndSizeEditor {...props} />
-        <Divider /> */}
+        <PositionAndSizeEditor {...props} />
+        <Divider />
         {activeSchema.type === 'text' && (
           <>
             <TextPropEditor {...props} />
             <Divider />
           </>
         )}
-        <ExampleInputEditor {...props} />
+        {/* <ExampleInputEditor {...props} /> */}
       </div>
     </div>
   );
